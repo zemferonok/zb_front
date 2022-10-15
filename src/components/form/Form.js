@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {commentService} from "../../services/comment.service";
 
 const Form = () => {
 
@@ -6,11 +7,15 @@ const Form = () => {
 
     const submit = (event) => {
         event.preventDefault();
-        console.log('submit')
+        console.log('submit');
 
-        if (!formState.name || !formState.email || !formState.message) return;
+        if (!formState.name || !formState.email || !formState.message) {
+            console.log("Fill all fields correct");
+            return;
+        }
 
         console.log(formState)
+        commentService.post(formState).then();
         setFormState({name: '', email: '', message: ''})
     }
 
