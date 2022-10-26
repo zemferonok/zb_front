@@ -1,0 +1,74 @@
+.component {
+    width: fit-content;
+    /*border: #efca4d dashed 2px;*/
+}
+
+.component p {
+    font-family: 'Apercu Arabic Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.component input {
+    box-sizing: border-box;
+    height: 100px;
+    width: 550px;
+    margin-top: 10px;
+    padding-left: 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+
+    font-family: 'Apercu Arabic Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.component textarea {
+    box-sizing: border-box;
+    width: 550px;
+    height: 200px;
+    margin-top: 10px;
+    padding: 30px 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+
+    font-family: 'Apercu Arabic Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.component button {
+    box-sizing: border-box;
+    width: 218px;
+    height: 73px;
+    margin-top: 25px;
+
+    background: #FAD34F;
+    border: 1px solid #FFFFFF;
+    border-radius: 500px;
+
+    font-family: 'Apercu Arabic Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.component button:hover{
+    background: #efca4d;
+}
+
+/**:focus{*/
+/*    background: lightpink;*/
+/*}*/
+
+.component button:active{
+    background: #ffd449;
+}

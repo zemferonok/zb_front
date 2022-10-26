@@ -1,0 +1,20 @@
+.body {
+    width: 40%;
+    background: rgba(239, 202, 77, 0.5);
+
+    padding: 10px;
+    border: 5px solid #efca4d;
+    border-radius: 25px;
+    box-sizing: border-box;
+
+    font-family: 'Apercu Arabic Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.body button {
+    font-size: 20px;
+    border-radius: 25px;
+    width: 100%;
+}

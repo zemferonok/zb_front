@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    column-gap: 50px;
+    padding: 20px 200px;
+    box-sizing: border-box;
+
+    font-family: 'Apercu Arabic Pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.MainLayout {
+    width: 1440px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.MainLayout .Outlet {
+    min-height: 650px;
+    margin: 50px 150px;
+}
